@@ -1,0 +1,7 @@
+这个文件是用usemin 和 html2js写得angular 2的应用
+
+index.html写在根目录
+
+项目运行之后把生成的新的 html 和 js 复制到 src中去。
+
+package.json 和 gruntfile.js 均在此工程中，

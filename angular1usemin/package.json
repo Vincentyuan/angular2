@@ -1,0 +1,21 @@
+{
+  "name": "angular1testusemin",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "1.6.4"
+  },
+  "devDependencies": {
+
+    "grunt-contrib-copy": "~0.5.0",
+    "load-grunt-tasks": "~0.4.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-uglify": "^2.2.1",
+
+    "grunt-filerev": "^2.3.1",
+    "grunt-usemin": "^3.1.1",
+    "grunt" : "1.0.1",
+    "load-grunt-tasks" : "~0.2.0",
+    "grunt-html2js": "0.3.8"
+  }
+}

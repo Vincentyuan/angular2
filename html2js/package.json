@@ -1,0 +1,30 @@
+{
+  "name" : "html2jsdemo",
+  "description" : "compiles angularjs template to js",
+  "version" : "0.0.1",
+  "homepage":"https://github.com/vincentyuan",
+  "author" : {
+    "name" : "ping",
+    "email" : "526730329@qq.com"
+  },
+  "main" : "GruntFile.js",
+  "engines" : {
+    "node" : "6.9.5"
+  },
+  "script" : {
+    "test" : "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint":"~0.1.1",
+    "grunt-contrib-clean" : "~0.4.0",
+    "grunt-contrib-nodeunit" : "^0.3.3",
+    "grunt" : "~0.4.0",
+    "grunt-conventional-changelog" : "~1.0.0",
+    "load-grunt-tasks" : "~0.2.0"
+  },
+  "dependencies" : {
+    "chokidar" : "^1.0.0",
+    "html-minifier" : "~3.0.0"
+  }
+
+}

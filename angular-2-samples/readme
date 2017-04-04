@@ -1,0 +1,17 @@
+These samples use Angular 4.0.0 rc1
+
+Live DEMO here: http://www.syntaxsuccess.com/angular-2-samples
+Documentation: http://www.syntaxsuccess.com/angular-2-articles
+
+Here are the prerequisites for running the project:
+
+1) npm install && bower install
+
+2) npm run install-application && npm run install-upgrade-application && npm start
+   
+   -AOT compiles
+   -Tree shakes 
+   -Bundles app into single file
+
+
+

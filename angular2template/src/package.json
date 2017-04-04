@@ -1,0 +1,54 @@
+{
+  "name" : "html2jsdemo",
+  "description" : "compiles angularjs template to js",
+  "version" : "0.0.1",
+  "homepage":"https://github.com/vincentyuan",
+  "author" : {
+    "name" : "ping",
+    "email" : "526730329@qq.com"
+  },
+  "main" : "GruntFile.js",
+  "engines" : {
+    "node" : "6.9.5"
+  },
+  "script" : {
+    "test" : "grunt test"
+  },
+  "devDependencies": {
+    "angular4":"1.0.0",
+    "@angular/common": "~2.4.0",
+    "@angular/compiler": "~2.4.0",
+    "@angular/core": "~2.4.0",
+    "@angular/forms": "~2.4.0",
+    "@angular/http": "~2.4.0",
+    "@angular/platform-browser": "~2.4.0",
+    "@angular/platform-browser-dynamic": "~2.4.0",
+    "@angular/router": "~3.4.0",
+    "@angular/upgrade": "~2.4.0",
+
+    "angular-in-memory-web-api": "~0.3.1",
+    "core-js": "^2.4.1",
+    "rxjs": "5.0.1",
+    "zone.js": "^0.8.4",
+
+    "grunt-contrib-jshint":"~0.1.1",
+    "grunt-contrib-clean" : "~0.4.0",
+    "grunt-contrib-nodeunit" : "^0.3.3",
+    "grunt-contrib-copy": "~0.5.0",
+    "load-grunt-tasks": "~0.4.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-uglify": "^2.2.1",
+
+    "grunt-filerev": "^2.3.1",
+    "grunt-usemin": "^3.1.1",
+    "grunt" : "1.0.1",
+    "load-grunt-tasks" : "~0.2.0",
+    "grunt-html2js": "0.3.8"
+  },
+  "dependencies" : {
+    "chokidar" : "^1.0.0",
+    "html-minifier" : "~3.0.0"
+  }
+
+}

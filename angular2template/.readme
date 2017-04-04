@@ -1,0 +1,4 @@
+这个文件用来测试angular2 中的template，
+
+然而angular2 中的template 是绝对路径的，需要用grunt等的require来替代路径
+否则默认从根目录找
