@@ -1,0 +1,25 @@
+<h1>{{title}}</h1>
+<div>
+  <input [(ngModel)]="newCategory" placeholder="add a new category">
+  <button (click) = "addNewCategory()">Add </button>
+</div>
+<div>
+  <table *ngFor="let category of categories">
+    <thead>
+      <tr>
+        <td>
+          <button *ngIf="category.displayBackend" (click) = "category.displayBackend = !category.displayBackend">▼</button>
+          <button *ngIf="!category.displayBackend" (click) = "category.displayBackend = !category.displayBackend">►</button>
+        </td>
+        <td>{{category.name}}</td>
+      </tr>
+    </thead>
+    <tbody   *ngIf="category.displayBackend" >
+
+      <tr *ngFor = "let feed of category.feeds" >
+        <td > {{feed.name}}</td> <td>{{feed.postId}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<button (click)="updateFeeds()">Update Feeds</button>

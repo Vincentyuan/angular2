@@ -1,7 +1,14 @@
 这个文件是用usemin 和 html2js写得angular 2的应用
 
-index.html写在根目录
 
-项目运行之后把生成的新的 html 和 js 复制到 src中去。
+idea 运行grunt 之后把生成的新的 html 和 js 复制到 src中去,生成angular2 标准的目录。
+
+index.html写在根目录, 在于复用node_modules。
+根目录放置配置文件，
+dev的目录结构与src一样， 保证开发环境与标准运行环境相似。
+
+如何生成可迁移的代码？
+
+
 
 package.json 和 gruntfile.js 均在此工程中，

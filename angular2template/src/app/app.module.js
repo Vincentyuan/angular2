@@ -1,4 +1,5 @@
 (function(app){
+//  import {TemplateComponent} from "./template.component";
   app.AppModule =
   ng.core.NgModule({
     imports:[ ng.platformBrowser.BrowserModule ],
